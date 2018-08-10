@@ -1,0 +1,360 @@
+{
+  "//": [
+    "This file provides metadata of all plugins available for Blessing Skin",
+    "Publish your plugin at https://github.com/bs-community/blessing-skin-plugins",
+    "This file is @generated automatically"
+  ],
+  "packages": [
+    {
+      "name": "authme-integration",
+      "version": "1.0.1",
+      "title": "Authme 数据对接",
+      "description": "与 Authme 进行数据对接，让玩家可以使用皮肤站的账号密码登录游戏。",
+      "author": "printempw",
+      "require": {
+        "blessing-skin-server": "^3.4.0",
+        "single-player-limit": "^1.0.4"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/authme-integration_v1.0.1.zip",
+        "shasum": "ccc20cbdf3e805d6db86cbc17c723b175ec11f49"
+      }
+    },
+    {
+      "name": "avatar-api",
+      "version": "1.1.1",
+      "title": "头像 API",
+      "description": "通过角色名获取根据该角色所设置的皮肤生成的头像。调用方法：/getavatar/{size}/{player_name}.png，成功返回 size*size 大小的图片，失败返回 404。",
+      "author": "printempw",
+      "require": {
+        "blessing-skin-server": "^3.2.0"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/avatar-api_v1.1.1.zip",
+        "shasum": "0a3bb7f5defe399511382cab1e235f8ce3916e7d"
+      }
+    },
+    {
+      "name": "batch-import",
+      "version": "2.0.0",
+      "title": "批量导入",
+      "description": "从本地文件批量导入材质至皮肤库，启用后请刷新页面从侧边栏进入。",
+      "author": "printempw",
+      "require": {
+        "blessing-skin-server": "^3.4.0"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/batch-import_v2.0.0.zip",
+        "shasum": "4ca61d050e392be4ed4699727d43795ccfd0de99"
+      }
+    },
+    {
+      "name": "bs-super-cache",
+      "version": "1.1.2",
+      "title": "BS Super Cache",
+      "description": "缓存皮肤预览图、头像、玩家 Json，优化站点性能。",
+      "author": "printempw",
+      "require": {
+        "blessing-skin-server": "^3.2.0"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/bs-super-cache_v1.1.2.zip",
+        "shasum": "fcda26919ff280f32ca4ee74c122171eab1ce4cb"
+      }
+    },
+    {
+      "name": "config-generator",
+      "version": "1.2.2",
+      "title": "配置生成",
+      "description": "在用户中心添加自动生成皮肤 Mod 配置的页面。",
+      "author": "printempw",
+      "require": {
+        "blessing-skin-server": "^3.2.0"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/config-generator_v1.2.2.zip",
+        "shasum": "1a3db41e9e20e18d9678f1f5b1d69779871dcc6b"
+      }
+    },
+    {
+      "name": "crazylogin-integration",
+      "version": "1.0.1",
+      "title": "CrazyLogin 数据对接",
+      "description": "与 CrazyLogin 进行数据对接，让玩家可以使用皮肤站的账号密码登录游戏。",
+      "author": "printempw",
+      "require": {
+        "blessing-skin-server": "^3.4.0",
+        "single-player-limit": "^1.0.4"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/crazylogin-integration_v1.0.1.zip",
+        "shasum": "9ea3296c53a60cc8aaf1fccb5426024766e55a81"
+      }
+    },
+    {
+      "name": "example-plugin",
+      "version": "1.0.0",
+      "title": "示例插件",
+      "description": "可以直接创建此插件的副本并在其基础上开发新的插件，其代码也兼具插件开发文档功能（其实就是我懒得写文档）",
+      "author": "printempw",
+      "dist": {
+        "type": "zip",
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/example-plugin_v1.0.0.zip",
+        "shasum": "881f1720b8b815f667f7ddcd73746b74e4b0c2fc"
+      }
+    },
+    {
+      "name": "forum-integration",
+      "version": "1.0.1",
+      "title": "论坛数据对接",
+      "description": "与 Discuz、Phpwind 等论坛程序进行数据对接，让玩家可以使用论坛的账号密码登录皮肤站，反之亦可。",
+      "author": "printempw",
+      "require": {
+        "blessing-skin-server": "^3.4.0",
+        "single-player-limit": "^1.0.4"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/forum-integration_v1.0.1.zip",
+        "shasum": "6a4041ce7e250f669924e6e174332822603c311d"
+      }
+    },
+    {
+      "name": "get-score-by-sharing",
+      "version": "1.0.1",
+      "title": "分享奖励积分",
+      "description": "用户上传公开的皮肤、披风至皮肤库时可以获得积分奖励。用户将皮肤库中的材质收藏到衣柜时，上传者也会获得积分奖励。",
+      "author": "printempw",
+      "dist": {
+        "type": "zip",
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/get-score-by-sharing_v1.0.1.zip",
+        "shasum": "83c1234695ef260e298e7d8d7f50798740ca0ce5"
+      }
+    },
+    {
+      "name": "hello-dolly",
+      "version": "1.0.0",
+      "title": "你好多莉",
+      "description": "这不是普通的插件，它象征着一代人希望和热情，浓缩成Louis Armstrong的四个字：你好，多莉。在启用后，在您站点后台每个页面的右上角都可以看到一句来自《俏红娘》音乐剧的英文原版台词。",
+      "author": "Matt Mullenweg",
+      "dist": {
+        "type": "zip",
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/hello-dolly_v1.0.0.zip",
+        "shasum": "dd8e11e4e9a16a7cf68c54f9ebb8217ead8015c2"
+      }
+    },
+    {
+      "name": "import-v2-data",
+      "version": "1.2.0",
+      "title": "导入 v2 数据",
+      "description": "导入 Blessing Skin Server v2.x 的站点数据（用户、皮肤）到 v3.x",
+      "author": "printempw",
+      "dist": {
+        "type": "zip",
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/import-v2-data_v1.2.0.zip",
+        "shasum": "e5b4a48e9ac738a2b603f936981f1b947f07fb3b"
+      }
+    },
+    {
+      "name": "insane-profile-cache",
+      "version": "1.1.1",
+      "title": "Profile 文件缓存",
+      "description": "直接生成玩家 Profile 的文件缓存，交给 Nginx 处理，慎用。每次玩家更新皮肤时、添加新角色时都会自动更新文件缓存。",
+      "author": "printempw",
+      "dist": {
+        "type": "zip",
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/insane-profile-cache_v1.1.1.zip",
+        "shasum": "3dc478f4c3d05a76fc239b9a4cb033a15a677d6a"
+      }
+    },
+    {
+      "name": "invitation-codes",
+      "version": "1.0.0",
+      "title": "注册邀请码",
+      "description": "在管理后台生成邀请码，只有持有邀请码才可以注册成为本站用户。",
+      "author": "printempw",
+      "require": {
+        "blessing-skin-server": "^3.4.0"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/invitation-codes_v1.0.0.zip",
+        "shasum": "3f60891c25d558276857194659601cca208f6d3b"
+      }
+    },
+    {
+      "name": "laravel-debugbar",
+      "version": "1.0.1",
+      "title": "Laravel Debugbar",
+      "description": "启用 Laravel 调试栏，详细信息见 GitHub barryvdh/laravel-debugbar。注意：切勿在调试以外的情况下开启本插件，否则可能造成敏感信息泄露。",
+      "author": "printempw",
+      "require": {
+        "blessing-skin-server": "^3.2.0"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/laravel-debugbar_v1.0.1.zip",
+        "shasum": "9e5947801bb7c5f3ff4a632a7ab6b1526baaa809"
+      }
+    },
+    {
+      "name": "multi-index-style",
+      "version": "2.0.0",
+      "title": "多种首页样式",
+      "description": "整合了官方的首页样式，并增加其它样式。",
+      "author": "gplane",
+      "dist": {
+        "type": "zip",
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/multi-index-style_v2.0.0.zip",
+        "shasum": "25b0a602040ebbf842a0eb78a9690c1624e1f534"
+      }
+    },
+    {
+      "name": "redis",
+      "version": "1.0.3",
+      "title": "Redis",
+      "description": "使用 Redis 作为皮肤站的缓存、Session 驱动，可以提升站点性能，配合 BS Super Cache 使用效果最佳。",
+      "author": "printempw",
+      "require": {
+        "blessing-skin-server": "^3.2.0"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/redis_v1.0.3.zip",
+        "shasum": "28e696e396a9b5b6b43b46cbbbaaed33372e4c46"
+      }
+    },
+    {
+      "name": "report-texture",
+      "version": "1.2.1",
+      "title": "举报材质",
+      "description": "用户可以举报皮肤库中的公开材质；管理员可在后台收到通知，并选择处理方式。",
+      "author": "printempw",
+      "require": {
+        "blessing-skin-server": "^3.4.0"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/report-texture_v1.2.1.zip",
+        "shasum": "6fdfc931fd059f838cbfb388445098b7da5016a1"
+      }
+    },
+    {
+      "name": "seo-meta-tags",
+      "version": "1.0.1",
+      "title": "SEO META 标签",
+      "description": "为站点添加 keywords、description 等 meta 标签，用于 SEO 优化",
+      "author": "printempw",
+      "dist": {
+        "type": "zip",
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/seo-meta-tags_v1.0.1.zip",
+        "shasum": "a2bb6bee369a743cc0205e86b390b356161eda66"
+      }
+    },
+    {
+      "name": "single-player-limit",
+      "version": "1.0.6",
+      "title": "单角色限制",
+      "description": "限制一个用户至多只能拥有一个角色，详见插件配置页。",
+      "author": "printempw",
+      "require": {
+        "blessing-skin-server": "^3.4.0"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/single-player-limit_v1.0.6.zip",
+        "shasum": "74a3f8bdca9889fb8927e5aa6de28c44afa1bf96"
+      }
+    },
+    {
+      "name": "skin-utilities",
+      "version": "1.0.0",
+      "title": "皮肤编辑实用工具",
+      "description": "一些与皮肤相关的编辑工具集合，全部来自于 GitHub，感谢这些工具的原作者",
+      "author": "GPlane",
+      "dist": {
+        "type": "zip",
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/skin-utilities_v1.0.0.zip",
+        "shasum": "e30316b575dca1f1660d8e66a0774e29f170d48d"
+      }
+    },
+    {
+      "name": "static-file-cdn",
+      "version": "1.0.1",
+      "title": "静态文件 CDN",
+      "description": "允许自定义皮肤站从何处加载静态（CSS/JavaScript）资源文件。",
+      "author": "printempw",
+      "dist": {
+        "type": "zip",
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/static-file-cdn_v1.0.1.zip",
+        "shasum": "12f591728031493ffc0b187f15a9f55ca048b7f3"
+      }
+    },
+    {
+      "name": "textures-aliyun-oss",
+      "version": "1.0.0",
+      "title": "阿里云对象存储 OSS",
+      "description": "将用户上传的材质存储文件至阿里云 OSS 中。需要 BS v3.5.0 及以上。",
+      "author": "printempw",
+      "require": {
+        "blessing-skin-server": "^3.5.0"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/textures-aliyun-oss_v1.0.0.zip",
+        "shasum": "8c4f829b8bd1f5efd4ce7fcd16b5fcff3a917109"
+      }
+    },
+    {
+      "name": "textures-qcloud-cos",
+      "version": "1.0.2",
+      "title": "腾讯云对象存储 COS",
+      "description": "将用户上传的材质存储文件至腾讯云 COS 中。仅支持 COS v5。需要 BS v3.5.0 及以上。",
+      "author": "printempw",
+      "require": {
+        "blessing-skin-server": "^3.5.0"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/textures-qcloud-cos_v1.0.2.zip",
+        "shasum": "ee75922efefa832b148fc9299d3e9dc9b38c876e"
+      }
+    },
+    {
+      "name": "textures-qiniu-storage",
+      "version": "1.0.0",
+      "title": "七牛云存储",
+      "description": "将用户上传的材质存储文件至七牛云存储中。需要 BS v3.5.0 及以上。",
+      "author": "printempw",
+      "require": {
+        "blessing-skin-server": "^3.5.0"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/textures-qiniu-storage_v1.0.0.zip",
+        "shasum": "fb060bd8aba5cc5f858377587c5826e9e504bea3"
+      }
+    },
+    {
+      "name": "yggdrasil-api",
+      "version": "2.1.8",
+      "title": "Yggdrasil API",
+      "description": "为皮肤站添加自定义 Yggdrasil API 支持，可配合 authlib-injector 等软件使用实现外置登录功能。启用之前请仔细阅读使用说明 👉 http://t.cn/RrUySTY",
+      "author": "printempw",
+      "require": {
+        "blessing-skin-server": "^3.4.0"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/yggdrasil-api_v2.1.8.zip",
+        "shasum": "a054b1ba4c3061545d5097e2f240b19f20bea939"
+      }
+    }
+  ]
+}
