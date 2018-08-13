@@ -7,9 +7,9 @@
   "packages": [
     {
       "name": "authme-integration",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "title": "Authme 数据对接",
-      "description": "与 Authme 进行数据对接，让玩家可以使用皮肤站的账号密码登录游戏。",
+      "description": "与 Authme 进行数据对接，让玩家可以使用皮肤站的账号密码登录游戏。启用之前请仔细阅读使用说明 👉 http://t.cn/RDEUFQS",
       "author": "printempw",
       "require": {
         "blessing-skin-server": "^3.4.0",
@@ -17,8 +17,8 @@
       },
       "dist": {
         "type": "zip",
-        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/authme-integration_v1.0.1.zip",
-        "shasum": "ccc20cbdf3e805d6db86cbc17c723b175ec11f49"
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/authme-integration_v1.0.2.zip",
+        "shasum": "3880d2a5ed693df68b36070dde332028ee8c8ed6"
       }
     },
     {
@@ -83,9 +83,9 @@
     },
     {
       "name": "crazylogin-integration",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "title": "CrazyLogin 数据对接",
-      "description": "与 CrazyLogin 进行数据对接，让玩家可以使用皮肤站的账号密码登录游戏。",
+      "description": "与 CrazyLogin 进行数据对接，让玩家可以使用皮肤站的账号密码登录游戏。启用之前请仔细阅读使用说明 👉 http://t.cn/RDE4tQn",
       "author": "printempw",
       "require": {
         "blessing-skin-server": "^3.4.0",
@@ -93,8 +93,8 @@
       },
       "dist": {
         "type": "zip",
-        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/crazylogin-integration_v1.0.1.zip",
-        "shasum": "9ea3296c53a60cc8aaf1fccb5426024766e55a81"
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/crazylogin-integration_v1.0.2.zip",
+        "shasum": "578ed26237a8fba15ad10c05297bb74457e2c1e1"
       }
     },
     {
@@ -111,9 +111,9 @@
     },
     {
       "name": "forum-integration",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "title": "论坛数据对接",
-      "description": "与 Discuz、Phpwind 等论坛程序进行数据对接，让玩家可以使用论坛的账号密码登录皮肤站，反之亦可。",
+      "description": "与 Discuz、Phpwind 等论坛程序进行数据对接，让玩家可以使用论坛的账号密码登录皮肤站，反之亦可。启用之前请仔细阅读使用说明 👉 http://t.cn/RDEq0aH",
       "author": "printempw",
       "require": {
         "blessing-skin-server": "^3.4.0",
@@ -121,8 +121,8 @@
       },
       "dist": {
         "type": "zip",
-        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/forum-integration_v1.0.1.zip",
-        "shasum": "6a4041ce7e250f669924e6e174332822603c311d"
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/forum-integration_v1.0.2.zip",
+        "shasum": "f21e127772a99e5c2c552ae93ff94db88f7757bf"
       }
     },
     {
@@ -259,7 +259,7 @@
     },
     {
       "name": "single-player-limit",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "title": "单角色限制",
       "description": "限制一个用户至多只能拥有一个角色，详见插件配置页。",
       "author": "printempw",
@@ -268,8 +268,8 @@
       },
       "dist": {
         "type": "zip",
-        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/single-player-limit_v1.0.6.zip",
-        "shasum": "74a3f8bdca9889fb8927e5aa6de28c44afa1bf96"
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/single-player-limit_v1.0.7.zip",
+        "shasum": "da10048f505af292a5390dd1fea9b89ceadf9367"
       }
     },
     {
