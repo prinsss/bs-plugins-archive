@@ -343,7 +343,7 @@
     },
     {
       "name": "yggdrasil-api",
-      "version": "2.1.8",
+      "version": "2.1.9",
       "title": "Yggdrasil API",
       "description": "为皮肤站添加自定义 Yggdrasil API 支持，可配合 authlib-injector 等软件使用实现外置登录功能。启用之前请仔细阅读使用说明 👉 http://t.cn/RrUySTY",
       "author": "printempw",
@@ -352,8 +352,8 @@
       },
       "dist": {
         "type": "zip",
-        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/yggdrasil-api_v2.1.8.zip",
-        "shasum": "a054b1ba4c3061545d5097e2f240b19f20bea939"
+        "url": "https://coding.net/u/printempw/p/bs-plugins-archive/git/raw/master/yggdrasil-api_v2.1.9.zip",
+        "shasum": "e092d707b33fdf80ad5d589ad9419525db2e9d7e"
       }
     }
   ]
